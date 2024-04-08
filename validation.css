@@ -721,22 +721,21 @@ footer{
 		transform:translate(0px, 0px);}
 
 		31%{
-transform:translate(-960px, 0px) ;}
+transform:translate(-1285px, 0px) ;}
 
 		35%{
-	transform:translate(-960px, 0px) ;}
+	transform:translate(-1285px, 0px) ;}
 
-		64%{
-		transform:translate(-1920px, 0px) ;}
+	61%{
+		transform:translate(-2580px, 0px) ;}
 
 		68%{
-	transform:translate(-1920px, 0px);}
+	transform:translate(-2580px, 0px);}
 		
-		98%{
-		transform:translate(-2880px, 0px);}
+		0%{
+		transform:translate(0px, 0px);}
 
-	100%{
-		transform:translate(-2880px, 0px);}
+
 }
 
 
@@ -753,6 +752,33 @@ transform:translate(-960px, 0px) ;}
 	padding-left: 90%;
 	font-size: 28px;
 }
+
+@keyframes scroll{
+	0%{
+		transform:translate(0px, 0px); }
+
+		2%{
+		transform:translate(0px, 0px);}
+
+		31%{
+transform:translate(-495px, 0px) ;}
+
+		35%{
+	transform:translate(-495px, 0px) ;}
+
+	61%{
+		transform:translate(-990px, 0px) ;}
+
+		68%{
+	transform:translate(-990px, 0px);}
+		
+		0%{
+		transform:translate(0px, 0px);}
+
+
+}
+
+
 .foot_div2{
 	flex-direction: column;
 	padding-left: 40px;
